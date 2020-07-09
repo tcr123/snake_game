@@ -1,0 +1,2 @@
+My cs50 final project is a play snake game.The movement of the snake is control by the up,left,right and down arrows of the keyboard.The snake will eat the green apple to increase its tail length.When the tail length increase,the snake will move faster.When the snake moves any directions,the snake will keep moving and cannot move backwards again.So,try to change the direction to prevent the snake from moving out of the wall and itself.If the snake moves out of the wall or collide with itself,the player will lose the game and the score will be recorded.
+
