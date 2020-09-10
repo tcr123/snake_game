@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1 style = "color:red;font:bold">Error</h1>
+    {% if err == 1 %}
+        <h3>No result found with title : <span style="color:blue;border-bottom:1px solid blue">{{title}}</span></h3>
+    {% endif %}
+
+    {% if err == 2 %}
+        <h3>Title :<span style="color:blue;border-bottom:1px solid blue">{{title}}</span> is already exists in wiki</h3>
+    {% endif %}
+
+{% endblock %}
